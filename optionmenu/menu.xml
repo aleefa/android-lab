@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group>
+    <item android:id="@+id/x1"
+        android:icon="@drawable/android"
+        android:title="first"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/x2"
+        android:icon="@drawable/search"
+        android:title="second"
+        />
+    <item android:id="@+id/x3"
+        android:icon="@drawable/search"
+        android:title="Third"
+        />
+
+
+</group>
+</menu>
